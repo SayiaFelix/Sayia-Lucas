@@ -11,6 +11,9 @@ body{
 .menu{
     overflow: auto;
     background-image: url("./images/#hero-cover.3.png");
+     background-size: cover;
+     width: 100%;
+     height: 100%;
 }
 .nav{
     display: flex;
@@ -65,11 +68,32 @@ padding: 50px;
 
 .menu-content{
     text-align: center;
-    padding-top: 150px;
-    padding: 10px;
+    padding-top: 100px;
     justify-content: space-around;
 }
 .menu-content > h1{
     color: white;
-    font-size: 45px;
+    font-size: 40px;
+}
+.menu-content > p{
+    color: white;
+    font-size: 17px;
+}
+.icon{
+    display: inline-flex;
+}
+#quote{
+color: white;
+ background-color: blue;
+ font-size: medium;
+ border-radius: 5px;
+}
+
+#learn{
+    padding-left: 20px;
+    color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-size: medium;
+    
 }
