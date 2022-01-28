@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    color: #23A6F0;
+    background-color: #252B42;
+    font-type:Montserrat
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-image: url("./images/#hero-cover.3.png");
+}
+.nav{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.brand{
+    font-size: large;
+    color: blanchedalmond;
+}
+.links{
+    
+}
