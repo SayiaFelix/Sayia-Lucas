@@ -2,7 +2,7 @@
     box-sizing: border-box;
     color: #23A6F0;
     background-color: #252B42;
-    font-type:Montserrat
+    font-family: Montserrat;
 }
 body{
     margin: 0;
@@ -52,7 +52,7 @@ padding: 50px;
     padding-left: 80px;
     color: blanchedalmond;
 }
-.member{
+#member{
     padding: 6px;
     padding-left: 60px;
     background-color: rgb(1, 119, 253);
