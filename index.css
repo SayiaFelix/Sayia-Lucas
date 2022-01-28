@@ -9,17 +9,56 @@ body{
     padding: 0;
 }
 .menu{
+    overflow: auto;
     background-image: url("./images/#hero-cover.3.png");
 }
 .nav{
     display: flex;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 100px;
 }
 .brand{
+    padding-top: 18px;
     font-size: large;
     color: blanchedalmond;
 }
 .links{
-    
+    padding-left: 50px;   
+    padding-top: 10px;
+}
+
+.menu > .nav >.links > ul{
+list-style: none;
+line-height: 30px;
+display: inline-flex;
+margin-top: auto;
+}
+
+.menu > .nav > .links > ul > li>{
+padding: 50px;
+}
+.menu .nav .links ul li a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: large;
+    color: blanchedalmond;
+}
+.login{
+    padding-top: 6px;
+    font-size: large;
+    padding-left: 80px;
+    color: blanchedalmond;
+}
+.member{
+    padding: 6px;
+    padding-left: 60px;
+    background-color: rgb(1, 119, 253);
+    border-radius: 30px;
+    font-size: large;
+    color: blanchedalmond;
+
+}
+.login-member{
+    display: inline-flex;
+    padding: 10px;
 }
