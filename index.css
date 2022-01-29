@@ -161,5 +161,45 @@ color: white;
     justify-content: space-around;
 }
 
-    
+
+.industry{
+    background-color: rgb(211, 200, 200);
+}
+#industry{
+    text-align: center;
+    padding-top: 20px;
+}  
+#industry:first-child{
+font-size:x-large;
+font-weight: bold;
+}
+#industry, p{
+    font-weight: normal;
+}
+.officials{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding-top: 50px;
+}
+.official1, .official2, .official3{
+    height: 230px;
+    width: 180px;
+    border: 1px solid brown;
+    border-radius: 2px;
+    background-color: white;
+    padding-left: 5px;
+    text-align: center;
+}
+.officials img{
+    padding-top: 15px;
+}
+.official1 >.official2 > .official3 > p{
+    font-size: small;
+
+}
+
+
+
+
 
