@@ -317,3 +317,22 @@ float: right;
     padding-top: 60px;
     padding-left: 30px;
 }
+
+.appointment{
+    height: 350px;
+    width: 400px;
+    display: inline-flex;
+    margin-top: -150px;
+    padding-left: 500px;
+    
+}
+
+#book-appointment{
+    background-color: white;
+    width: 200px;
+}
+
+
+
+
+
