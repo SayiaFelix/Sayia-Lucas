@@ -322,16 +322,16 @@ float: right;
     height: 350px;
     display: inline-flex;
     margin-top: -150px;
-    padding-left: 500px;
+    padding-left: 420px;
     
 }
 
 #book-appointment{
     background-color: white;
-    width: 230px;
+    width: 250px;
 }
 .name{
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .name p{
     border: 1px solid rgb(48, 46, 46);
@@ -344,10 +344,17 @@ float: right;
     background-color: rgb(44, 136, 167);
     color: white;
     font-size: medium;
-    width: max-content;
+    width: 180px;
     margin-left: 45px;
     border-radius: 10px;
+    height: 70px;
+    margin:auto ;
 }
+.book h5{
+    font-size: large;
+}
+
+
 
 
 
