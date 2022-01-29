@@ -196,7 +196,15 @@ font-weight: bold;
 }
 .official1 >.official2 > .official3 > p{
     font-size: small;
-
+}
+.images{
+ padding-top: 70px;
+ padding-left: 30px;
+ display: inline-flex;
+ justify-content: space-around;
+}
+.image1, .image2, .image3, .image4, .image5, .image6 {
+    padding: 70px;
 }
 
 
