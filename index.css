@@ -374,7 +374,34 @@ float: right;
 }
 
 
+.low{
+    background-color: rgb(238, 233, 224);
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
 
+
+}
+.company-info{
+    text-align: left;
+
+}
+.company-info, h5{
+font-size: large;
+color: black;
+padding-top: 10px;
+padding-left: 42px;
+
+}
+.company-info ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.company-info ul li{
+    font-size: medium;
+
+}
 
 
 
