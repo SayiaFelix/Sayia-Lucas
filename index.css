@@ -224,7 +224,7 @@ font-weight: bold;
 #subscribe{
     margin: 0 10%;
     background-color: rgb(96, 200, 235);
-    width: 130px;
+    width: max-content;
     float: inline-end;
 }
 #subscribe:hover{
@@ -320,7 +320,6 @@ float: right;
 
 .appointment{
     height: 350px;
-    width: 400px;
     display: inline-flex;
     margin-top: -150px;
     padding-left: 500px;
@@ -329,7 +328,25 @@ float: right;
 
 #book-appointment{
     background-color: white;
-    width: 200px;
+    width: 230px;
+}
+.name{
+    padding-left: 10px;
+}
+.name p{
+    border: 1px solid rgb(48, 46, 46);
+    padding-right: 10px;
+    background-color: rgb(180, 174, 174);
+}
+.book{
+    text-align: center;
+    border: 1px solid rgb(44, 136, 167);
+    background-color: rgb(44, 136, 167);
+    color: white;
+    font-size: medium;
+    width: max-content;
+    margin-left: 45px;
+    border-radius: 10px;
 }
 
 
