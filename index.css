@@ -388,7 +388,6 @@ float: right;
 }
 .company-info, h5{
 font-size: large;
-color: black;
 padding-top: 10px;
 padding-left: 42px;
 
@@ -401,6 +400,16 @@ padding-left: 42px;
 .company-info ul li{
     font-size: medium;
 
+}
+.footer{
+    padding: 10px;
+    display: inline-flex;
+    margin: auto;
+}
+
+.footer-images{
+    padding-left: 600px;
+    padding-top: 17px;
 }
 
 
