@@ -246,10 +246,11 @@ font-weight: bold;
 .pricing{
     display: inline-flex;
     justify-content: center;
-    padding-left: 300px;
+    padding-left: 280px;
     padding-top: 50px;
     text-align: center;
     font-size: large;
+    margin-bottom: 40px;
 }
 .free{
     border: 1px solid rgb(44, 136, 167);
@@ -295,5 +296,17 @@ font-weight: bold;
     padding-top: 50px;
 }
 #pricing > p {
+    font-size: large;
+}
+#world{
+    background-color: #252B42;
+    height: 400px;
+}
+.world{
+    padding-left: 270px;
+    color: white;
+    padding-top: 50px;
+}
+.world, h3{
     font-size: large;
 }
