@@ -64,16 +64,34 @@ padding: 50px;
     padding-left: 80px;
     color: blanchedalmond;
 }
-#member{
-    padding: 3px;
-    padding-left: 35px;
-    background-color: rgb(1, 119, 253);
-    border-radius: 50%;
-    font-size: medium;
-    color: blanchedalmond;
-    margin: 0 5%;
 
+#member{
+    
+    padding-left: 35px;
+    border-radius: 30%;
+    font-size: x-large;
 }
+
+
+.end-btn {
+    
+    background-color: #23A6F0;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+    color: #FFFFFF;
+    border-radius: 1.0vw;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #end-btn{
+    float: right;
+  }
+  
+
+
 .login-member{
     display: inline-flex;
     padding: 10px;
@@ -304,11 +322,11 @@ font-weight: bold;
 .officials{
     display: flex;
     justify-content: space-around;
-    height: 220px;
+    height: 250px;
     padding-top: 50px;
 }
 .official1, .official2, .official3{
-    height: 230px;
+    height: 250px;
     width: 180px;
     border: 1px solid brown;
     border-radius: 2px;
@@ -339,7 +357,7 @@ font-weight: bold;
     justify-content: space-around;
     width: 60%;
     height: 70px;
-    background:linear-gradient(-90deg, indigo 50%, darkred 50%);
+    background-image: linear-gradient(to right top, #144688, #4d4697, #7d409d, #ab3298, #d31788);
 }
 .subscribe h4{
     font-weight: bold;
