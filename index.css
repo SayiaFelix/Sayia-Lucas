@@ -29,13 +29,13 @@ body{
     margin-left: 100px;
 }
 .brand{
-    padding-top: 18px;
+    padding-top: 20px;
     font-size: large;
     color: white;
 }
 .links{
     padding-left: 70px;   
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .menu > .nav >.links > ul{
@@ -98,12 +98,13 @@ padding: 50px;
 .login-member{
     display: inline-flex;
     padding: 10px;
+    padding-top: 20px;
 
 }
 
 .menu-content{
     text-align: center;
-    padding-top: 90px;
+    padding-top: 50px;
     justify-content: space-around;
 }
 .menu-content > h1{
@@ -116,7 +117,7 @@ padding: 50px;
 }
 .icon{
     display: inline-flex;
-    padding-top: 15px;
+    padding-top: 20px;
 
 }
 #quote{
@@ -125,16 +126,23 @@ color: white;
  font-size: medium;
  border-radius: 15px;
  font-weight: bold;
+ width: 150px;
+ height: 40px;
+ margin-top: 10px;
+ padding-top: 17px;
 }
 
 #learn{
-    padding-left: 20px;
     color: white;
     border: solid 2px white;
     border-radius: 15px;
     font-size: medium;   
     margin: 0 3%;
     font-weight: bold;
+    width: 120px;
+    margin-top: auto;
+    height: 40px;
+    padding-top: 17px;
     
 }
 /*
@@ -327,13 +335,14 @@ color: white;
 #industry{
     text-align: center;
     padding-top: 30px;
+    font-weight: normal;
 }  
 #industry:first-child{
 font-size:large;
 
 }
 #industry, p{
-    font-weight: normal;
+    font-weight: lighter;
 }
 .officials{
     display: flex;
@@ -342,9 +351,9 @@ font-size:large;
     padding-top: 50px;
 }
 .official1, .official2, .official3{
-    height: 250px;
+    height: 280px;
     width: 180px;
-    border: 1px solid white;
+    border: 1px solid #F9F9F9;
     border-radius: 2px;
     background-color: white;
     padding-left: 5px;
@@ -378,19 +387,23 @@ font-size:large;
 .subscribe h4{
     font-weight: bold;
     font-size: large;
+    margin: auto;
 }
 
 #subscribe{
     margin: 0 10%;
     background-color: rgb(96, 200, 235);
-    width: max-content;
-    float: inline-end;
+    width: 70px;
+    float: left;
+    padding-left: 50px;
+
 }
 #subscribe:hover{
     background-color: brown;
 }
 #email{
 float: right;
+margin: auto;
     
 }
 .email{
@@ -401,22 +414,27 @@ float: right;
     height: 30px;
     display: inline-flex;
     justify-content: space-evenly;
+    margin: auto;
 
 }
 .pricing{
     display: inline-flex;
     justify-content: center;
     padding-left: 280px;
-    padding-top: 50px;
     text-align: center;
-    font-size: large;
     margin-bottom: 40px;
+    font-weight: normal;
 }
+
+
 .free{
     border: 1px solid rgb(44, 136, 167);
     border-radius: 10px;
     width: 250px;
+    height: 450px;
     background-color: white;
+    margin-left: 1px;
+    margin-top: 70px;
 }
 .standard{
     border: 1px solid rgb(44, 136, 167);
@@ -424,7 +442,9 @@ float: right;
     width: 250px;
     background-color: rgb(20, 20, 48);
     color: white;
-    height: 450px;
+    height: 480px;
+    margin-left: 1px;
+    margin-top: 48px;
 }
 .try{
     background-color: rgb(44, 136, 167);
@@ -533,15 +553,7 @@ padding-left: 240px;
     margin-left: 530px;
     height: 50px;
 }
-/*
-.Contact{
- padding-left: 500px;
- padding-bottom: 25px;
-padding-top: 30px;
- 
- 
- 
-}
+
 
 .low{
     background-color: rgb(238, 233, 224);
