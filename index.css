@@ -6,33 +6,36 @@ header{
     width: 100%;
     background-repeat: no-repeat;
     background-size: 1300px;
+
 }
 
 
 body{
     margin: 0;
     padding: 0;
+    overflow-x: none;
+
 }
 
  .menu{
-    overflow: auto;
+    overflow-x: none;
      background-size: cover;
      width: 100%;
      height: 100%;
 }
 .nav{
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 100px;
 }
 .brand{
-    padding-top: 18px;
+    padding-top: 20px;
     font-size: large;
-    color: blanchedalmond;
+    color: white;
 }
 .links{
-    padding-left: 50px;   
-    padding-top: 10px;
+    padding-left: 70px;   
+    padding-top: 20px;
 }
 
 .menu > .nav >.links > ul{
@@ -47,12 +50,12 @@ padding: 50px;
 }
 .menu .nav .links ul li a {
     text-decoration: none;
-    padding: 15px;
+    padding: 20px;
     font-size: large;
-    color: blanchedalmond;
+    color: white;
 }
 .menu .nav .links ul li a:hover{
-    background-color: rgb(46, 46, 211);
+    background-color: #23A6F0;;
     border-radius: 25px;
     border: solid 1px;
 
@@ -62,7 +65,7 @@ padding: 50px;
     padding-top: 6px;
     font-size: large;
     padding-left: 80px;
-    color: blanchedalmond;
+    color: white;
 }
 
 #member{
@@ -95,12 +98,13 @@ padding: 50px;
 .login-member{
     display: inline-flex;
     padding: 10px;
+    padding-top: 20px;
 
 }
 
 .menu-content{
     text-align: center;
-    padding-top: 90px;
+    padding-top: 50px;
     justify-content: space-around;
 }
 .menu-content > h1{
@@ -113,174 +117,73 @@ padding: 50px;
 }
 .icon{
     display: inline-flex;
-    padding-top: 15px;
+    padding-top: 20px;
 
 }
 #quote{
 color: white;
- background-color: blue;
+ background-color: #23A6F0;
  font-size: medium;
  border-radius: 15px;
  font-weight: bold;
+ width: 150px;
+ height: 40px;
+ margin-top: 10px;
+ padding-top: 17px;
 }
 
+
+
 #learn{
-    padding-left: 20px;
     color: white;
     border: solid 2px white;
     border-radius: 15px;
     font-size: medium;   
     margin: 0 3%;
     font-weight: bold;
+    width: 120px;
+    margin-top: auto;
+    height: 40px;
+    padding-top: 17px;
     
 }
-/*
- @media only screen and (max-width="780px"){ 
-     
-     
-
-     .nav{
-     padding: 0;
-     display: inline-flex;
-     flex-direction: row;
-     }
-
-     .brand{
-     position: absolute;
-     font-size: large;
-     color: blanchedalmond;
-     padding-left: 50px;
-     }
-
-     .links{
-     flex-direction: row;
-     justify-content: end;
-     width: 100%;
-     height: 100%;
-    }
-
-     .menu > .nav >.links > ul{
-     list-style: none;
-     line-height: 25px;
-     flex-direction: row;
-     justify-content: space-around;
-     margin-top: auto;
-     padding-left: 300px;
-     padding-top: 8px;
-    }
-    
-    .menu{
-        background-size: cover;
-        width: 100%;
-    }
-
-    .menu > .nav > .links > ul > li>{
-        padding: 50px;
-        font-size: large;
-    }
-
-    .menu .nav .links ul li a {
-         text-decoration: none;
-         padding: 15px;
-        font-size: large;
-        color: blanchedalmond;
-        margin: 40px auto;
-    }
-     .menu .nav .links ul li a:hover{
-      background-color: rgb(46, 46, 211);
-      border-radius: 25px;
-      border: solid 1px;
-     }
-        
-    .login{
-      font-size: large;
-      color: blanchedalmond;
-     }
-     #member{
-       padding: 4px;
-       background-color: rgb(1, 119, 253);
-      font-size: medium;
-      color: blanchedalmond;
-       margin: 0 10%;
-      width: 200px;
-      }
-     .login-member{
-        display: inline-flex;
-        padding-left: 70px;
-        padding-top: 25px;
-        font-size: large;
-     }
-        
-     .menu-content{
-        text-align: center;
-       width: 100%;      
-    }
-
-    .menu-content > h1{
-         color: white;
-         font-size: 63px;
-     }
-
-
-    .menu-content > p{
-       color: white;
-      font-size: 20px;
-     }
-    .icon{
-      display: inline-flex;
-      padding-top: 15px;
-    }
-     #quote{
-      color: white;
-      background-color: blue;
-      font-size: medium;
-      border-radius: 15px;
-      font-weight: bold;
-    }
-        
-    #learn{
-      padding-left: 20px;
-      color: white;
-      border: solid 2px white;
-      border-radius: 15px;
-      font-size: medium;   
-     margin: 0 3%;
-     font-weight: bold;        
-        }
-    }
-
-*/
-
-
-
-
-
 
 .box{
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(211, 200, 200);
+    justify-content: center;
+    background-color: #FAFAFA;
     height: 150px;
+
    
     
 }
+
+.box1{
+ margin-right: 30px;
+
+}
+
+
 .box1, .box2{
     height: 180px;
-    width: 200px;
+    width: 260px;
     border: 2px solid white;
     border-radius: 2px;
     margin-top: -70px;
     background-color: white;
-    padding-left: 5px;
+    padding-left: 10px;
+
 }
+
 .box3{
     height: 180px;
-    width: 200px;
+    width: 260px;
     border: 2px solid rgb(47, 157, 194);
     border-radius: 2px;
     margin-top: -70px;
     background-color: rgb(47, 157, 194);
-    padding-left: 5px;
+    padding-left: 20px;
+    margin-left: 30px;
 }
 .box h3{
  font-size: large;
@@ -289,11 +192,24 @@ color: white;
 .box img{
     margin-top: 20px;
 }
+
+#imgb3{
+    color: white;
+    background-color: rgb(47, 157, 194);
+}
+
 .b{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 200px;
 
+}
+
+.b1{
+    margin-right: 200px;
+}
+.b3{
+    margin-left: 200px;
 }
 .b1, .b2, .b3 {
     height: 120px;
@@ -306,29 +222,37 @@ color: white;
 
 
 .industry{
-    background-color: rgb(211, 200, 200);
+    background-color: #FAFAFA;
+    
 }
 #industry{
     text-align: center;
     padding-top: 30px;
+    font-weight: normal;
 }  
 #industry:first-child{
-font-size:x-large;
-font-weight: bold;
+font-size:large;
 }
-#industry, p{
-    font-weight: normal;
-}
+
 .officials{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 250px;
     padding-top: 50px;
 }
+
+.official1{
+    margin-right: 180px;
+}
+.official3{
+    margin-left: 180px;
+}
+
+
 .official1, .official2, .official3{
-    height: 250px;
+    height: 280px;
     width: 180px;
-    border: 1px solid brown;
+    border: 1px solid #F9F9F9;
     border-radius: 2px;
     background-color: white;
     padding-left: 5px;
@@ -342,39 +266,49 @@ font-weight: bold;
 }
 .images{
  padding-top: 70px;
- padding-left: 30px;
+ padding-left: 120px;
  display: inline-flex;
  justify-content: space-around;
 }
+
+
+
 .image1, .image2, .image3, .image4, .image5, .image6 {
-    padding: 70px;
+    padding: 50px;
 }
+
 .subscribe{
     padding: 10px;
     margin: 0 20%;
     text-align: center;
     display: inline-flex;
     justify-content: space-around;
-    width: 60%;
-    height: 70px;
+    width: 50%;
+    height: 50px;
     background-image: linear-gradient(to right top, #144688, #4d4697, #7d409d, #ab3298, #d31788);
 }
+
+
 .subscribe h4{
     font-weight: bold;
     font-size: large;
+    margin: auto;
 }
 
 #subscribe{
     margin: 0 10%;
     background-color: rgb(96, 200, 235);
-    width: max-content;
-    float: inline-end;
+    width: 70px;
+    float: left;
+    padding-left: 50px;
+
 }
 #subscribe:hover{
     background-color: brown;
 }
 #email{
 float: right;
+margin: auto;
     
 }
 .email{
@@ -385,22 +319,27 @@ float: right;
     height: 30px;
     display: inline-flex;
     justify-content: space-evenly;
+    margin: auto;
 
 }
 .pricing{
     display: inline-flex;
     justify-content: center;
     padding-left: 280px;
-    padding-top: 50px;
     text-align: center;
-    font-size: large;
     margin-bottom: 40px;
+    font-weight: normal;
 }
+
+
 .free{
     border: 1px solid rgb(44, 136, 167);
     border-radius: 10px;
     width: 250px;
+    height: 450px;
     background-color: white;
+    margin-left: 1px;
+    margin-top: 70px;
 }
 .standard{
     border: 1px solid rgb(44, 136, 167);
@@ -408,7 +347,9 @@ float: right;
     width: 250px;
     background-color: rgb(20, 20, 48);
     color: white;
-    height: 450px;
+    height: 480px;
+    margin-left: 1px;
+    margin-top: 48px;
 }
 .try{
     background-color: rgb(44, 136, 167);
@@ -509,13 +450,15 @@ padding-left: 240px;
 }
 
 .Contact{
- padding-left: 500px;
- padding-bottom: 25px;
-padding-top: 30px;
- 
- 
- 
+    color: white;
+    background-color: #23A6F0;
+    padding:10px;
+    border: none;
+    border-radius: 10%;
+    margin-left: 530px;
+    height: 60px;
 }
+
 
 .low{
     background-color: rgb(238, 233, 224);
