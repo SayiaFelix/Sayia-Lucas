@@ -193,12 +193,10 @@ color: white;
     margin-top: 20px;
 }
 
-#b3image{
+#imgb3{
     color: white;
-    
+    background-color: rgb(47, 157, 194);
 }
-
-
 
 .b{
     display: flex;
@@ -458,7 +456,7 @@ padding-left: 240px;
     border: none;
     border-radius: 10%;
     margin-left: 530px;
-    height: 50px;
+    height: 60px;
 }
 
 
